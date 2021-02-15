@@ -78,8 +78,23 @@ const Home = () => {
           }}
           startDelay={6000}
           hideCursorAfterText={true}
-          text="My job is my passion, so i search to do my best every, because this is my fun."
+          text="My job is my passion, so i search to do my best ever, because this is my fun."
           typeSpeed={50}
+          scrollArea={myRef}
+        />
+
+        <TypeWriterEffect
+          textStyle={{
+            fontFamily: "Red Hat Display",
+            color: "#fff",
+            fontWeight: 500,
+            fontSize: "1.5em",
+            textAlign: "center",
+          }}
+          startDelay={11000}
+          hideCursorAfterText={true}
+          text="And the fun never stops!"
+          typeSpeed={70}
           scrollArea={myRef}
         />
       </Content>
