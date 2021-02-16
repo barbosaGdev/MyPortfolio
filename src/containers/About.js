@@ -1,7 +1,52 @@
+import styled from 'styled-components'
+import laptop from '../laptop.png'
+import Timeline from '../components/Timeline'
+import ImageFadeIn from 'react-image-fade-in'
+import { Title } from './Home'
+
+const AboutSection = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+`
+const ContentLeft = styled.div`
+  width: 40%;
+  align-items: center;
+  display: flex;
+  text-align: left;
+`
+
+const Typography = styled.p`
+    font-family: "Red Hat Display";
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5em;
+`
+
 const About = () => {
   return (
     <div>
-      <h1>Página sobre</h1>
+      <Title>What about me?</Title>
+
+      <AboutSection>
+        <ContentLeft>
+          <Typography>
+            My name is Gabriel Barbosa David, i was born on 19th April of 2001. I was child, i loved computer, and I found out that I wanted to work with
+            it when I started my technical course. Since then, i study tecnologies for frontend and backend, because I'm specialized in web, but I take a risk in mobile development.
+            So if you need a web software or a simple site, it will be a pleasure to serve you.
+          </Typography>
+        </ContentLeft>
+        <div>
+          <ImageFadeIn
+            opacityTransition={2}
+            src={laptop}
+          />
+        </div>
+      </AboutSection>
+
+      <Timeline titleOne="Professional Experience" titleTwo="Academic Formation"/>
+
     </div>
   );
 };

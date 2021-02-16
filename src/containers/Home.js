@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import { useDencrypt } from "use-dencrypt-effect";
 import TypeWriterEffect from "react-typewriter-effect";
@@ -10,18 +10,11 @@ const FirstSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5%;
-`;
-
-const HoverImage = styled.div`
-  :hover: {
-    background: url(imgs/bg/04.2.jpg);
-  }
 `;
 
 const Content = styled.div``;
 
-const Title = styled.h2`
+export const Title = styled.h3`
   font-size: 50px;
   font-family: sans-serif;
   color: #fff;

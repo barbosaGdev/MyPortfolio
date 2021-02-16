@@ -24,6 +24,11 @@ const Layout = () => {
           About
         </Link>
       </ListMenu>
+      <ListMenu>
+        <Link className="linkMenu" to="/knowledges">
+          Knowledges
+        </Link>
+      </ListMenu>
     </Menu>
   );
 };
