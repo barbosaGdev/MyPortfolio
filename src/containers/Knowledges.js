@@ -34,7 +34,7 @@ const Knowledges = () => {
 
             <div style={{ alignSelf: 'center', padding: '10px' }}>
                 <ProgressLabel>Next.js</ProgressLabel>
-                <ProgressBar width={800} completed={34} />
+                <ProgressBar width={800} completed={80} />
             </div>
 
             <Title>Back End</Title>
@@ -79,11 +79,11 @@ const Knowledges = () => {
             </div>
             <div style={{ alignSelf: 'center', padding: '10px' }}>
                 <ProgressLabel>PHP</ProgressLabel>
-                <ProgressBar width={800} completed={73} />
+                <ProgressBar width={800} completed={88} />
             </div>
             <div style={{ alignSelf: 'center', padding: '10px' }}>
                 <ProgressLabel>Laravel</ProgressLabel>
-                <ProgressBar width={800} completed={76} />
+                <ProgressBar width={800} completed={88} />
             </div>
             <div style={{ alignSelf: 'center', padding: '10px', marginBottom: '48px' }}>
                 <ProgressLabel>Wordpress</ProgressLabel>
