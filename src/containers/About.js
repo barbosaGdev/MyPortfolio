@@ -33,7 +33,7 @@ const About = () => {
         <ContentLeft>
           <Typography>
           My name is Gabriel Barbosa David, i was born on 19th April of 2001. When i was child, i loved computer, and I found out that I wanted to work with this
-          when I started my technical course. Since then, i study tecnologies for frontend and backend. Actually 
+          when I started my technical course. Since then, i study technologies for frontend and backend. Actually 
           I work developing web and mobile applications. So if you need a web software, a mobile app or a simple site, it will be a pleasure to serve you.
           </Typography>
         </ContentLeft>

@@ -15,17 +15,17 @@ const Layout = () => {
   return (
     <Menu>
       <ListMenu>
-        <Link className="linkMenu" to="/">
+        <Link className="linkMenu" to="/barbosagdev-portfolio/">
           Home
         </Link>
       </ListMenu>
       <ListMenu>
-        <Link className="linkMenu" to="/about">
+        <Link className="linkMenu" to="/barbosagdev-portfolio/about">
           About
         </Link>
       </ListMenu>
       <ListMenu>
-        <Link className="linkMenu" to="/knowledges">
+        <Link className="linkMenu" to="/barbosagdev-portfolio/knowledges">
           Knowledges
         </Link>
       </ListMenu>
